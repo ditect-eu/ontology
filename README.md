@@ -1,2 +1,2 @@
 # ditect-ontology
-Ontology work for the DiTECT project: www.ditect.eu
+Ontology development work for the Food Safety sensors used in DiTECT project: www.ditect.eu
