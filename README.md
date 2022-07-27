@@ -1,2 +1,2 @@
 # ditect-ontology
-Ontology development work for the Food Safety sensors used in DiTECT project: www.ditect.eu
+The DiTECT Food Safety Ontology is the result of activities for EU-Horizon Funded DiTECT project: www.ditect.eu
