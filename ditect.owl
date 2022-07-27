@@ -21,15 +21,79 @@
     
 
 
+    <!-- http://www.w3.org/ns/sosa/isResultOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/isResultOf"/>
+    
+
+
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
     
 
 
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#hasLatitude -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLatitude"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#hasLatitudeUnit -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLatitudeUnit"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#hasLongitude -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLongitude"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#hasLongitudeUnit -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLongitudeUnit"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#hasSample -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#hasSample"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#hasSampleType -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#hasSampleType"/>
+    
+
+
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#isPerformedAt -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#isPerformedAt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#isPerformedOn -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#isPerformedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
     
 
 
@@ -190,7 +254,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_1391#Cattle -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1391#Cattle">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
     </owl:Class>
     
 
@@ -198,7 +262,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_1391#Processor -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1391#Processor">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
     </owl:Class>
     
 
@@ -206,7 +270,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_2809#Farm -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2809#Farm">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
     </owl:Class>
     
 
@@ -214,7 +278,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_2934#Fishery -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2934#Fishery">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
     </owl:Class>
     
 
@@ -222,15 +286,21 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_6145#Poultry -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6145#Poultry">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
     </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_6211#Sampletype -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6211#Sampletype"/>
     
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_7044#Retailer -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7044#Retailer">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
     </owl:Class>
     
 
@@ -238,7 +308,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
     </owl:Class>
     
 
@@ -979,6 +1049,222 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25341#Location -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25341#Location">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLatitude"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68642#Latitude"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLongitude"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68643#Longitude"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25391#Analysis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25391#Analysis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isPerformedAt"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C37984#Laboratory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isPerformedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sample#Sample"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure">
+        <rdfs:comment>The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called \&quot;watt\&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C37984#Laboratory -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C37984#Laboratory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Cattle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Processor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2809#Farm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2934#Fishery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_6145#Poultry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_7044#Retailer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48289#Distributor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C47824#Dataset -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C47824#Dataset">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasSample"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sample#Sample"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C48289#Distributor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C48289#Distributor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C62289#Domain -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62289#Domain">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25341#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C68642#Latitude -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68642#Latitude"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C68643#Longitude -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68643#Longitude"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000770#StandardDeviation -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000770#StandardDeviation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The standard deviation within the informative area is calculated for each wavelength (405, 435, 450,470, 505, 525, 570, 590, 630, 645, 660, 700, 850, 870, 890, 910, 940, 970nm).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_001109#Mean -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001109#Mean">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The mean reflectance within the informative area (i.e., mean intensity of pixels) each wavelength (405, 435, 450,470, 505, 525, 570, 590, 630, 645, 660, 700, 850, 870, 890, 910, 940, 970nm).</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/Wavelength#Wavelength -->
 
     <owl:Class rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Wavelength#Wavelength">
@@ -1031,7 +1317,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
-                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1050,7 +1336,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure"/>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1065,10 +1351,35 @@
     
 
 
+    <!-- http://www.w3.org/ns/sosa/Result#AnalysisResult -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Result#AnalysisResult">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/isResultOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391#Analysis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/ns/sosa/Sample#Sample -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sample#Sample">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest#FeatureOfInterest"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25341#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasSampleType"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_6211#Sampletype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
@@ -1114,7 +1425,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48289#Distributor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1183,20 +1494,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Dataset -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Dataset"/>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
     </owl:Class>
     
 
@@ -1508,149 +1805,6 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Domain -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Experiment -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Experiment"/>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Laboratory -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Laboratory">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Cattle"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Processor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2809#Farm"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2934#Fishery"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_6145#Poultry"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_7044#Retailer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Mean -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Mean">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>The mean reflectance within the informative area (i.e., mean intensity of pixels) each wavelength (405, 435, 450,470, 505, 525, 570, 590, 630, 645, 660, 700, 850, 870, 890, 910, 940, 970nm).</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#StandardDeviation -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#StandardDeviation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>The standard deviation within the informative area is calculated for each wavelength (405, 435, 450,470, 505, 525, 570, 590, 630, 645, 660, 700, 850, 870, 890, 910, 940, 970nm).</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure -->
-
-    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure">
-        <rdfs:comment>The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called \&quot;watt\&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM).</rdfs:comment>
     </owl:Class>
     
 
