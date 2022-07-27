@@ -1,5 +1,6 @@
 Parameter: Temperature
 Stage: Retail storage
+
 Question: Temperature* a, b (Average 6hours function) in °C of a single (but not specific) refrigerator (used for prepackaged meat products). 
 
 The reason that we are asking this is to know how fast E. coli may grow during the storage of beef patties in the retail display refrigerators. 
