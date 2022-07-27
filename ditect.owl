@@ -1,17 +1,1692 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="urn:absolute:www.ditect.eu/"
+<rdf:RDF xmlns="https://purl.archive.org/purl/ditect/DiTECTOntology#"
+     xml:base="https://purl.archive.org/purl/ditect/DiTECTOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="urn:absolute:www.ditect.eu/">
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-</Ontology>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/hasMeasurement -->
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/hasMeasurement"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/hasProperty -->
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/hasProperty"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/hasSensorType -->
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/hasSensorType"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/isPropertyOf -->
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/isPropertyOf"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/measuresProperty -->
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/measuresProperty"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/relatesToMeasurement -->
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/relatesToMeasurement"/>
+    
+
+
+    <!-- https://w3id.org/saref#isControlledByDevice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#isControlledByDevice"/>
+    
+
+
+    <!-- https://w3id.org/saref#isMeasuredByDevice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#isMeasuredByDevice"/>
+    
+
+
+    <!-- https://w3id.org/saref#isMeasuredIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#isMeasuredIn"/>
+    
+
+
+    <!-- https://w3id.org/saref#isMeasurementOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#isMeasurementOf"/>
+    
+
+
+    <!-- https://w3id.org/saref#makesMeasurement -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#makesMeasurement"/>
+    
+
+
+    <!-- https://w3id.org/saref#relatesToProperty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/saref#relatesToProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_sum -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_sum"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_time -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_time"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_value -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_value"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#sum -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#sum"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#time -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#time"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_1391#Cattle -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1391#Cattle">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_1391#Processor -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1391#Processor">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_2809#Farm -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2809#Farm">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_2934#Fishery -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2934#Fishery">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_6145#Poultry -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6145#Poultry">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_7044#Retailer -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7044#Retailer">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15741#Succinic -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15741#Succinic">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16134#LY2-G(Ammonia) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16134#LY2-G(Ammonia)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16134#LY2-GH(Ammonia) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16134#LY2-GH(Ammonia)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16134#PA-2(Ammonia) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16134#PA-2(Ammonia)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16135#Isobutyric -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16135#Isobutyric">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16136#LY2-gCTL(Hydrogen_Sulphide) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16136#LY2-gCTL(Hydrogen_Sulphide)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16183#P10-2(Methane) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16183#P10-2(Methane)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16236#LY2-AA(Ethanol) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16236#LY2-AA(Ethanol)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16236#PA-2(Ethanol) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16236#PA-2(Ethanol)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17234#Glucose -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234#Glucose">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17245#LY2-G(Carbon_monoxide) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17245#LY2-G(Carbon_monoxide)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24632#P10-1(Hydrocarbons) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24632#P10-1(Hydrocarbons)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30239#P40-1(Fluorine) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30239#P40-1(Fluorine)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30768#Propionic -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30768#Propionic">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30769#Citric -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30769#Citric">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30772#Butyric -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30772#Butyric">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32816#Pyruvic -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32816#Pyruvic">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32879#LY2-gCT(Propane) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32879#LY2-gCT(Propane)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33655#T70-2(Aromatic_compunds) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33655#T70-2(Aromatic_compunds)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37808#LY2-gCT(Butane) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37808#LY2-gCT(Butane)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_422#Lactic -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_422#Lactic">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63248#LY2-LG(Oxidising_gas) -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63248#LY2-LG(Oxidising_gas)">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Response of each sensor (electrical signal) to the odorants (volatile compounds) collected from the headspace of each sample</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/Wavelength#Wavelength -->
+
+    <owl:Class rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Wavelength#Wavelength">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshdetect"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIR"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>For each sample intensity in the range 458-899nm is acquired. (FreshDetect)</rdfs:comment>
+        <rdfs:comment>Spectral range of 4000 – 400 cmˉ¹ /  fingerprints from foods across the manufacturing production. (FTIR)</rdfs:comment>
+        <rdfs:comment>Ιn total 353 linearly distributed measurements in the range [900-1700] will be acquired for each sample. (NIR)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/FeatureOfInterest#FeatureOfInterest -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest#FeatureOfInterest">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasMeasurement"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasProperty"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/Property#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A feature of interest represents any real world entity from which a property is measured.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Observation#Measurement -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Observation#Measurement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasurementOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest#FeatureOfInterest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#relatesToProperty"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/Property#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#relatesToProperty"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/ns/ssn/Property#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Represents the measured value made over a property. It is also linked to the unit of measure in which the value is expressed and the timestamp of the measurement</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sample#Sample -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sample#Sample">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest#FeatureOfInterest"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Cattle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Processor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2809#Farm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2934#Fishery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_6145#Poultry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_7044#Retailer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor#Sensor -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor#Sensor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isControlledByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#makesMeasurement"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sample#Sample"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a Stimulus, e.g., a change in the environment, or Input data composed from the Results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Property#Property -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/Property#Property">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isControlledByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/isPropertyOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest#FeatureOfInterest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/relatesToMeasurement"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A quality of a feature of interest that can be measured; an aspect of a feature of interest that is intrinsic to and cannot exist without the feature</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System#Device -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/System#Device">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/measuresProperty"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/Property#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Dataset -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Dataset"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The electronic nose system (FOX 3000, Alpha MOS, Toulouse, France) is equipped with 12 metal oxide gas sensors (MOS sensors) based on different sensing materials. Gas sensors are located in two temperature controlled chambers within high temperature and zero humidity and a purified air generator is used to provide carrier gas for cleaning sensors. The sensors array comprised of LY, P and T type sensors. Sensor response is recorded by Alpha Soft v.12 software (Alpha MOS, Toulouse, France). The sampling conditions (quantity, volume, temperature and headspace generating time) are optimized previously in order to decide the optimum conditions and improve sensor performance.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>FTIR spectral data will be collected  using a ZnSe 45° HATR
+(Horizontal Attenuated Total Reflectance) crystal and an FTIR-6200 JASCO spectrometer equipped with a standard sample chamber, a triglycine sulphate (TGS) detector and a Ge/KBr beamsplitter. The crystal wiil be used has a refractive index of 2.4 and a depth of penetration of 2.0 μm at 1000 cmˉ¹. Using the Spectra Manager™ Code of Federal Regulations (CFR) software version 2, spectra will be collected  by accumulating 100 scans with a resolution of 4 cmˉ¹ and a total integration time of 2 min.  A small portion from the sample will be transferred to the crystal plate, covered with a small piece of aluminum foil, and then pressed with a gripper to ensure the best possible contact with the crystal.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR-6200 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR-6200">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFox3000 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFox3000">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshDetectBFD-100 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshDetectBFD-100">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshdetect"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshdetect -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshdetect">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Freshdetect BFD-100 emits 400mW optical radiation at a wavelength of 405nm. The device is portable, powered by a rechangable battery and operated by hand. (The BFD-100 is designed to measure the total plate count of meat and must be placed directly on the sample.)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic profiles of the organic acids, off-odor, as well as other metabolic compounds or substrates (e.g. glucose, etc) of foods can be determined by HPLC. The HPLC system consists of a JASCO LC-Net II/ADC system controller, a JASCO AS-2055 Plus Autosampler with a Model PU-980 Intelligent pump, a Model LG-980-02 ternary gradient unit pump and different types of detectors (e.g. MD-910 multiwavelength detector), while the appropriate type of column is used for the determination of different metabolites/compounds. The software used for spectra collection and processing is Jasco Chrompass Chromatography Data system v1.7.403.1.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectJASCOLC-NET -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectJASCOLC-NET">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Multispectral images will be acquired in 18 different, non-uniformly distributed wavelengths ranging from UV (405 nm) to short wave NIR (970 nm). Briefly, the procedure for image acquisition and segmentation will be described, the system will be subjected to a light set up procedure known as “autolight” and will be calibrated radiometrically and geometrically. The samples will be transferred to Petri dishes, will be placed inside the Ulbricht sphere and multispectral images of the samples’ surface will be acquired. In order for redundant information (related to the background, fat, and not to the sample) to be removed image segmentation will be performed using the VideometerLab system software (version 2.12.39). The contrast between the sample material and the other irrelevant objects is maximized, in order to enable a threshold operation. Then, canonical discriminant analysis is employed, resulting in the production of a segmented image.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIR -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIR">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="λp        it is controlled by isc-nirscan software under windows os (usb connection) or with an app (ios and adroid, using bluetooth connection). nir measurements will be collected directly, taking a portion of the sample and placing into the cuvette in the spectral range of 900–1700 nm, by accumulating 10 internal scans.">NIR spectra will be collected using a portable NIR spectrometer in the range [900nm, 1700nm]. The sensor NIRvascan ASP-NIR-M T (Allied Scientific Pro) sensor, employs a 1 mm InGaAs datector (Hamamatsu model G12180-010A) Dark Current 0.8nA @VR=1V Noise Equivalent Power 1.4*10-14 </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIRvascan -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIRvascan">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectVideometer -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectVideometer">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#has_version"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Domain -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Domain"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Experiment -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Experiment"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Laboratory -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Laboratory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Cattle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_1391#Processor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2809#Farm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_2934#Fishery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_6145#Poultry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_7044#Retailer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Distributor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Mean -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Mean">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The mean reflectance within the informative area (i.e., mean intensity of pixels) each wavelength (405, 435, 450,470, 505, 525, 570, 590, 630, 645, 660, 700, 850, 870, 890, 910, 940, 970nm).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#StandardDeviation -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#StandardDeviation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The standard deviation within the informative area is calculated for each wavelength (405, 435, 450,470, 505, 525, 570, 590, 630, 645, 660, 700, 850, 870, 890, 910, 940, 970nm).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#UnitOfMeasure">
+        <rdfs:comment>The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called \&quot;watt\&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Unknown -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Unknown">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation#Measurement"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Metabolic end-products or food compounds (low molecular compounds) / oxidized during storage of food system</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
 
 
 
