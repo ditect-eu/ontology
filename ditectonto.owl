@@ -1,0 +1,2271 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.tno.nl/agrifood/ontology/ditectB/common"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.tno.nl/agrifood/ontology/ditectB/common">
+    <Prefix name="" IRI="https://www.tno.nl/agrifood/ontology/ditectB/common"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://saref.etsi.org/saref4agri/v1.1.2/</Import>
+    <Import>http://www.w3.org/ns/ssn/</Import>
+    <Import>http://www.ontology-of-units-of-measure.org/resource/om-2/</Import>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_00003861"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeatherProperty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProductId"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subcutaneous_injection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFertilization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAppliedPer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCVTD"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDosage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01001078"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStartDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShowWaterPresure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasExpirationDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parcel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beefQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTreatmentMethod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStartPosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actOn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concentrate_feed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001000"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAcidExcretionTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PackagingOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasElectricalStimulationOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jugular_arteriovenous_bloodletting_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOperatedOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTetradId"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAssassinationBloodlettingMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApliedAmount"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTreatedArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vaccinationOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inorganic_salt_feed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFreezingTemperature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03400152"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStunningMode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAppliedDatetime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPackagingRoomTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anticoagulant_aseptic_bloodletting_method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLotNum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#green_feed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTransporters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carbon_dioxide_asphyxia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#responsibleAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TravelTrajectory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beef"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSymptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concentrate_supplement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Precipitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CropProtectionOperation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWithdrawralTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShowerTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiadOperation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Subcutaneous_injection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intramuscular_injection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000925"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CVTV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Illuminance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentrate_supplement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasId"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jugular_arteriovenous_bloodletting_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001041"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasminimumLast"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeedingOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#green_feed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkyCover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03413358"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParcelOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPreservationTemperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intramuscular_injection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cattle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndDatetime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#livein"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTetradStoringTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTravelTrajectories"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasmaximumLast"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesIrrigationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarcassProcessingOperation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#roughage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoningCuttingOperation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesForage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProductionBatchNumer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasmaximumDose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreSlaughterOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electric_shock"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTargetedDiseases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anticoagulant_aseptic_bloodletting_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CVTD"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StoringOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intravenous_injection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesPesticide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesFertilizer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCarcass_weight"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GenericName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FertlizationOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuantity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#premix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SlaughterOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abattoir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cowshed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ground"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRestTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pesticide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShowerOperation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCommercialName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHealth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHeartLiverLungQuarantine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BeefProductingOperation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03301293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#three_tube_simultaneous_cutting_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abattoirHolding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricalStimulationOperation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mixed_drinking_water"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssassinationBloodlettingMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShowerWaterTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuarantineOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01001081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiadOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#extended_brain_puncture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workonAnimal"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDiadId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStorageLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StunningMode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasApplicationMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perWeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndPosition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBeefPh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStoringRoomTemperature"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUsage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGutBellyQuarantine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCarcassQuarantine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHeadQuarantine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IrrigationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForageType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBoningandCuttingRoomTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intravenous_injection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAcidExcretionRoomTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dosage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedtoPrevent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managesAbattoir"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportingOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStoringTemperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Composition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#haTransportersId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roughage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fertilizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicationOperation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShowerOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApplicationMethod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isTargetedTowards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatmentMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#silage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002127"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workonAbattoir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#three_tube_simultaneous_cutting_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasminimumDose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentrate_feed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03301750"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mixed_drinking_water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inorganic_salt_feed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concentrate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStartDatetime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPackageMeterial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCVTV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IrrigationOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#premix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abattoirWorker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtmosphericPhenomenon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasManufacturingDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreedingOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesVaccine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVoltage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIdentification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001041"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001134"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <Class IRI="http://purl.obolibrary.org/obo/FOODON_03411161"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <Class IRI="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03301293"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+            <Class IRI="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <Class IRI="http://purl.obolibrary.org/obo/FOODON_03413358"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000925"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_00003861"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01001078"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01001081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01001081"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001041"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001134"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002350"/>
+            <Class IRI="http://purl.obolibrary.org/obo/FOODON_03400152"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03309997"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002127"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001000"/>
+            <Class IRI="http://purl.obolibrary.org/obo/PO_0000003"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03301293"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03301750"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002127"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://saref.etsi.org/core/Humidity"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://saref.etsi.org/core/Temperature"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://saref.etsi.org/core/Time"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtmosphericPhenomenon"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeefProductingOperation"/>
+        <Class IRI="#ProductOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoningCuttingOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoningCuttingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasBoningandCuttingRoomTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoningCuttingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasTetradStoringTime"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoningCuttingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasTetradId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreedingOperation"/>
+        <Class IRI="#ProductOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreedingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOperatedOn"/>
+            <Class IRI="https://saref.etsi.org/saref4agri/Animal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreedingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasApliedAmount"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreedingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isAppliedPer"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreedingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasAppliedDatetime"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#actOn"/>
+            <Class IRI="https://saref.etsi.org/saref4agri/Animal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDosage"/>
+            <Class IRI="#Dosage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIndication"/>
+            <Class IRI="#Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasUsage"/>
+            <Class IRI="#Usage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTD"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasWithdrawralTime"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#actOn"/>
+            <Class IRI="https://saref.etsi.org/saref4agri/Animal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDosage"/>
+            <Class IRI="#Dosage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasUsage"/>
+            <Class IRI="#Usage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isUsedtoPrevent"/>
+            <Class IRI="#Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVTV"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCarcassQuarantine"/>
+            <Class IRI="#QuarantineOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDiadOperation"/>
+            <Class IRI="#DiadOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGutBellyQuarantine"/>
+            <Class IRI="#QuarantineOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHeadQuarantine"/>
+            <Class IRI="#QuarantineOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHeartLiverLungQuarantine"/>
+            <Class IRI="#QuarantineOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCarcass_weight"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#responsibleAgent"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Composition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasContains"/>
+            <Class IRI="#Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Composition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#perWeight"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasElement"/>
+            <Class IRI="#Drug"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasQuantity"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CropProtectionOperation"/>
+        <Class IRI="#ParcelOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CropProtectionOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesPesticide"/>
+            <Class IRI="#Pesticide"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CropProtectionOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasTreatedArea"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CropProtectionOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#isTargetedTowards"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiadOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiadOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAcidExcretionRoomTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiadOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAcidExcretionTime"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiadOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasBeefPh"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiadOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasDiadId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasSymptom"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dosage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInMeasure"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dosage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasmaximumDose"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dosage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasmaximumLast"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dosage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasminimumDose"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dosage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasminimumLast"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug"/>
+        <Class IRI="#TreatmentMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCVTD"/>
+            <Class IRI="#CVTD"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComposition"/>
+            <Class IRI="#Composition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#GenericName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasCommercialName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricalStimulationOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricalStimulationOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCurrent"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricalStimulationOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasTime"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricalStimulationOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasVoltage"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farm"/>
+        <Class IRI="https://saref.etsi.org/saref4agri/Farm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmer"/>
+        <Class IRI="https://saref.etsi.org/saref4agri/Farmer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeedingOperation"/>
+        <Class IRI="#BreedingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeedingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesForage"/>
+            <Class IRI="#Forage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertlizationOperation"/>
+        <Class IRI="#ParcelOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertlizationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesFertilizer"/>
+            <Class IRI="#Fertilizer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertlizationOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasTreatedArea"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertlizationOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasApplicationMethod"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertlizationOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasFertilization"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forage"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03301293"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forage"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_03301750"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComposition"/>
+            <Class IRI="#Composition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManufacturer"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasType"/>
+            <Class IRI="#ForageType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forage"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasLotNum"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forage"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ground"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Illuminance"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IrrigationOperation"/>
+        <Class IRI="#ParcelOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationOperation"/>
+        <Class IRI="#BreedingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManufacturer"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTreatmentMethod"/>
+            <Class IRI="#Usage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTargetedDiseases"/>
+            <Class IRI="#Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesDrug"/>
+            <Class IRI="#Drug"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicationOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasLotNum"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOperatedOn"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operation"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#responsibleAgent"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFreezingTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPackagingRoomTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPreservationTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasExpirationDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasManufacturingDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasPackageMeterial"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasProductId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PackagingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasProductionBatchNumer"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parcel"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#usesIrrigationSystem"/>
+            <Class IRI="#IrrigationSystem"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parcel"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasArea"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParcelOperation"/>
+        <Class IRI="#ProductOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParcelOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOperatedOn"/>
+            <Class IRI="#Parcel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParcelOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasApliedAmount"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParcelOperation"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#isAppliedPer"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Area"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParcelOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasEndDatetime"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParcelOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasStartDatetime"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasShowerOperation"/>
+            <Class IRI="#ShowerOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOperatedOn"/>
+            <Class IRI="https://saref.etsi.org/saref4agri/Animal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#responsibleAgent"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasHealth"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasIdentification"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreSlaughterOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasRestTime"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Precipitation"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pressure"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasOrigin"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOperation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasInput"/>
+            <Class IRI="#Product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasOutput"/>
+            <Class IRI="#Product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuarantineOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiation"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShowerOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShowerOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasShowWaterPresure"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShowerOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasShowerTime"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShowerOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasShowerWaterTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyCover"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlaughterOperation"/>
+        <Class IRI="#BeefProductingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlaughterOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAssassinationBloodlettingMethod"/>
+            <Class IRI="#AssassinationBloodlettingMethod"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlaughterOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasElectricalStimulationOperation"/>
+            <Class IRI="#ElectricalStimulationOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlaughterOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStunningMode"/>
+            <Class IRI="#StunningMode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlaughterOperation"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#responsibleAgent"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snow"/>
+        <Class IRI="#Precipitation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoringOperation"/>
+        <Class IRI="#ProductOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoringOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFreezingTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoringOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPreservationTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoringOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasStoringRoomTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoringOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasProductId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StoringOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasStorageLocation"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storm"/>
+        <Class IRI="#Precipitation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subcutaneous_injection"/>
+        <Class IRI="#Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <Class IRI="#ProductOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTravelTrajectories"/>
+            <Class IRI="#TravelTrajectory"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFreezingTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPreservationTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasStoringTemperature"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#haTransportersId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasProductId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportingOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasTransporters"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TravelTrajectory"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasEndDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TravelTrajectory"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasEndPosition"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TravelTrajectory"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasStartDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TravelTrajectory"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasStartPosition"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine"/>
+        <Class IRI="#TreatmentMaterial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCVTV"/>
+            <Class IRI="#CVTV"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComposition"/>
+            <Class IRI="#Composition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#GenericName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeatherProperty"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01001078"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wind"/>
+        <Class IRI="#WeatherProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoir"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000925"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoir"/>
+        <Class IRI="https://saref.etsi.org/saref4agri/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoir"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasAddress"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoir"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirHolding"/>
+        <Class IRI="https://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirHolding"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#managesAbattoir"/>
+            <Class IRI="#abattoir"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirHolding"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirWorker"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirWorker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://xmlns.com/foaf/0.1/member"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirWorker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProduct"/>
+            <Class IRI="#beef"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirWorker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#workonAbattoir"/>
+            <Class IRI="#abattoir"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirWorker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#workonAnimal"/>
+            <Class IRI="#cattle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abattoirWorker"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anticoagulant_aseptic_bloodletting_method"/>
+        <Class IRI="#AssassinationBloodlettingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beef"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00001041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beef"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasQuality"/>
+            <Class IRI="#beefQuality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beef"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beefQuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasQuantity"/>
+            <Class IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carbon_dioxide_asphyxia"/>
+        <Class IRI="#StunningMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cattle"/>
+        <Class IRI="https://saref.etsi.org/saref4agri/Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cattle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#livein"/>
+            <Class IRI="#cowshed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cattle"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concentrate"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concentrate_feed"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concentrate_supplement"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowshed"/>
+        <Class IRI="https://saref.etsi.org/saref4agri/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowshed"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasId"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electric_shock"/>
+        <Class IRI="#StunningMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#extended_brain_puncture"/>
+        <Class IRI="#StunningMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#green_feed"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inorganic_salt_feed"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intramuscular_injection"/>
+        <Class IRI="#Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intravenous_injection"/>
+        <Class IRI="#Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jugular_arteriovenous_bloodletting_method"/>
+        <Class IRI="#AssassinationBloodlettingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mixed_drinking_water"/>
+        <Class IRI="#Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#premix"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roughage"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#silage"/>
+        <Class IRI="#ForageType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#three_tube_simultaneous_cutting_method"/>
+        <Class IRI="#AssassinationBloodlettingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaccinationOperation"/>
+        <Class IRI="#BreedingOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaccinationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasApplicationMethod"/>
+            <Class IRI="#Usage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaccinationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManufacturer"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaccinationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTargetedDiseases"/>
+            <Class IRI="#Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaccinationOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usesVaccine"/>
+            <Class IRI="#Vaccine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaccinationOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasDose"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vaccinationOperation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasLotNum"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="https://saref.etsi.org/core/Humidity"/>
+        <Class IRI="https://saref.etsi.org/core/Temperature"/>
+        <Class IRI="https://saref.etsi.org/core/Time"/>
+        <Class IRI="#AtmosphericPhenomenon"/>
+        <Class IRI="#Ground"/>
+        <Class IRI="#Illuminance"/>
+        <Class IRI="#Precipitation"/>
+        <Class IRI="#Pressure"/>
+        <Class IRI="#Radiation"/>
+        <Class IRI="#SkyCover"/>
+        <Class IRI="#Wind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BeefProductingOperation"/>
+        <Class IRI="#BreedingOperation"/>
+        <Class IRI="#ParcelOperation"/>
+        <Class IRI="#StoringOperation"/>
+        <Class IRI="#TransportingOperation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BoningCuttingOperation"/>
+        <Class IRI="#CarcassProcessingOperation"/>
+        <Class IRI="#DiadOperation"/>
+        <Class IRI="#ElectricalStimulationOperation"/>
+        <Class IRI="#PackagingOperation"/>
+        <Class IRI="#PreSlaughterOperation"/>
+        <Class IRI="#ShowerOperation"/>
+        <Class IRI="#SlaughterOperation"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01000925</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A facility in which non-human animals are slaughtered and processed for human consumption.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Slaughterhouse</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01000925</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A facility in which non-human animals are slaughtered and processed for human consumption.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01000925</IRI>
+        <IRI>http://purl.obolibrary.org/obo/envo.owl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01000925</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">slaughterhouse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01000925</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">slaughterhouse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01000925</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">meat processing building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01000925</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">abattoir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Space_weather</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Weather</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01001078</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Environmental variability which inheres in an astronomical body part or in outer space.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01001078</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class refers to all weather, including atmospheric and space weather. Please use a subclass for more specificity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01001078</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">weather</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01001081</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A condition which inheres in an environmental system by virtue of that system undergoing variation in its composition, the distribution of the qualities its components bear, and/or in the processes which occur within it and which it participates in.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01001081</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class is very general, but the nature of environmental variability is indeed quite variable. This class may be refined once we have more subclasses to consider.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ENVO_01001081</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">environmental variability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Beef</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001041</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Meat from bovines, especially domestic cattle (cows).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001041</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">beef food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001261</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Any plant food product which, typically, is constituted by intact parts from one or more annual plants cultivated as field and garden crops in the open and under glass, and used almost exclusively for food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001261</IRI>
+        <IRI>http://www.fao.org/es/faodef/fdef07e.htm#7.01</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00001261</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vegetable food product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002127</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plant based food product for animal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_00002127</IRI>
+        <IRI>https://www.feedipedia.org/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000122</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fodder, a type of animal feed, is any agricultural foodstuff used specifically to feed domesticated livestock, such as cattle, rabbits, sheep, horses, chickens and pigs. &quot;Fodder&quot; refers particularly to food given to the animals (including plants cut and carried to them), rather than that which they forage for themselves (called forage).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fodder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://langual.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SUBSET_SIREN:F1293</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subset_siren</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SIREN DB annotation:
+* has quality &apos;whole, natural shape&apos; (http://purl.obolibrary.org/obo/FOODON_03430150)
+* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)
+* derives from &apos;whole plant or most parts used&apos; (http://purl.obolibrary.org/obo/FOODON_03420150)
+* formed as a result of &apos;water removal process&apos; (http://purl.obolibrary.org/obo/FOODON_03460138)
+* formed as a result of &apos;preservation by dehydration or drying&apos; (http://purl.obolibrary.org/obo/FOODON_03470116)
+* has consumer &apos;food animal as consumer&apos; (http://purl.obolibrary.org/obo/FOODON_03510015)
+        </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301293</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fodder (animal feed)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000114"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000122</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Forage is a plant material (mainly plant leaves and stems) eaten by grazing livestock.  Historically, the term forage has meant only plants eaten by the animals directly as pasture, crop residue, or immature cereal crops, but it is also used more loosely to include similar plants cut for fodder and carried to the animals, especially as hay or silage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Damion Dooley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Forage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://langual.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SUBSET_SIREN:F1750</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subset_siren</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SIREN DB annotation:
+* has quality &apos;whole, natural shape&apos; (http://purl.obolibrary.org/obo/FOODON_03430150)
+* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)
+* derives from &apos;whole plant or most parts used&apos; (http://purl.obolibrary.org/obo/FOODON_03420150)
+* has consumer &apos;non-food animal as food consumer&apos; (http://purl.obolibrary.org/obo/FOODON_03510013)
+* has consumer &apos;food animal as consumer&apos; (http://purl.obolibrary.org/obo/FOODON_03510015)
+        </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/FOODON_03301750</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">forage (animal feed)</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
