@@ -5,38 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
     
 
 
@@ -54,6 +24,12 @@
     <!-- http://www.w3.org/ns/sosa/isResultOf -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/isResultOf"/>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved"/>
     
 
 
@@ -323,7 +299,9 @@
 
     <!-- http://aims.fao.org/aos/agrovoc/c_6211#Sampletype -->
 
-    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6211#Sampletype"/>
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6211#Sampletype">
+        <rdfs:comment>A type of sample under study.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -343,300 +321,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015#Process -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical imaging</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000049"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging mass spectrometry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spectroscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000628 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000628">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000228"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vibrational spectroscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000630 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000630">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000628"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000015</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000658</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IR</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infrared absorption spectroscopy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000630"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IR</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chmo#non-mining_synonym"/>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000636 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000636">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000630"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000110</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourier transform infrared spectroscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000656 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000656">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002414"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raman spectroscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000806 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000806">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass spectrum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000823 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000823">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raman spectrum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000824 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000824">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rotational spectrum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000870 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000870">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002515"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">near-infrared Raman spectroscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000999 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000999">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000002</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">separation method</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000999"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000053</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromatography</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001000"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002118</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">column chromatography</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid chromatography</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002318"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000630</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-performance liquid chromatography</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001234 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spectrometer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001822 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001822">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001234"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infrared spectrometer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001823 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001823">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001822"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourier transform infrared spectrometer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0001832 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001832">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000806"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid chromatography mass spectrum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0002318 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001004"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid–solid chromatography</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0002414 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002414">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000228"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scattering spectroscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0002515 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002515">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000656"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laser Raman spectroscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0002702 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000824"/>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourier transform far infrared spectra</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourier transform far-infrared spectrum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0002793 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002793">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensor</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001840</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planned process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0000000</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001133</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001131</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001267</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0001461</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FIX:0000258</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material processing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000185 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0000048</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000968 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000968">
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0000998</oboInOwl:hasAlternativeId>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">device</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015#Process">
+        <rdfs:comment>A series of actions or steps taken in order to achieve a particular end.</rdfs:comment>
     </owl:Class>
     
 
@@ -1377,6 +1065,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001000#Chromatography -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001000#Chromatography">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015#Process"/>
+        <rdfs:comment>A separation method where the components are distributed between two phases, one of which is stationary, while the other moves in a definite direction.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C25341#Location -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25341#Location">
@@ -1392,6 +1089,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68643#Longitude"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>A position, site, or point in space where something can be found.</rdfs:comment>
     </owl:Class>
     
 
@@ -1411,6 +1109,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sample#Sample"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>Examination and interpretation; the process of identifying an issue to be understood and addressed, modelling the issue, investigating the model results, interpreting the results, and possibly making a recommendation. The concept also refers to the examination and study of a whole in terms of the parts composing it.</rdfs:comment>
     </owl:Class>
     
 
@@ -1474,6 +1173,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48289#Distributor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25341#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A facility equipped and competent to conduct scientific experiments, observations, tests, investigations, and/or to manufacture chemicals or medical products.</rdfs:comment>
     </owl:Class>
     
 
@@ -1487,6 +1193,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sample#Sample"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>A collection of related data records.</rdfs:comment>
     </owl:Class>
     
 
@@ -1509,19 +1216,33 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25341#Location"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>An area of knowledge considered as a discrete unit for some purpose.</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C68642#Latitude -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68642#Latitude"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68642#Latitude">
+        <rdfs:comment>The angular distance north or south between an imaginary line around a heavenly body parallel to its equator and the equator itself.</rdfs:comment>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C68643#Longitude -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68643#Longitude"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68643#Longitude">
+        <rdfs:comment>An imaginary great circle on the surface of a heavenly body passing through the poles at right angles to the equator.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000185#ImagingSpectroscopy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000185#ImagingSpectroscopy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015#Process"/>
+        <rdfs:comment>An imaging assay is an assay to produce a picture of an entity.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -1688,6 +1409,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391#Analysis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>The Result of an Observation, Actuation, or act of Sampling.</rdfs:comment>
     </owl:Class>
     
 
@@ -1760,9 +1482,41 @@
     
 
 
+    <!-- http://www.w3.org/ns/sosa/Sensor#Sensor -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor#Sensor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isControlledByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#makesMeasurement"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sample#Sample"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a Stimulus, e.g., a change in the environment, or Input data composed from the Results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/ns/ssn/Property#Property -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/ssn/Property#Property">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isControlledByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://saref.etsi.org/core/isPropertyOf"/>
@@ -1780,10 +1534,40 @@
     
 
 
+    <!-- http://www.w3.org/ns/ssn/System#Device -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/ssn/System#Device">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/measuresProperty"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/Property#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#Chemical -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#Chemical">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/System#Device"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectE-nose">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#base_value"/>
@@ -1810,7 +1594,7 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001823"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
@@ -1826,7 +1610,13 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR-6200 -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFTIR-6200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185#ImagingSpectroscopy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
@@ -1858,7 +1648,13 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFox3000 -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFox3000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#Chemical"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
@@ -1890,7 +1686,13 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshDetectBFD-100 -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshDetectBFD-100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185#ImagingSpectroscopy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
@@ -1922,7 +1724,7 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshdetect -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectFreshdetect">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
@@ -1937,7 +1739,7 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectHPLC">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
@@ -1952,7 +1754,13 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectJASCOLC-NET -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectJASCOLC-NET">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001000#Chromatography"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
@@ -1984,7 +1792,7 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectMSI">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
@@ -1999,7 +1807,7 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIR -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIR">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology/draft#update_time"/>
@@ -2014,7 +1822,13 @@
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIRvascan -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectNIRvascan">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185#ImagingSpectroscopy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
@@ -2043,10 +1857,24 @@
     
 
 
+    <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor -->
+
+    <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectSensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor#Sensor"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/purl/ditect/DiTECTOntology#DitectVideometer -->
 
     <owl:Class rdf:about="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectVideometer">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#DitectDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#ProcessInvolved"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185#ImagingSpectroscopy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasSensorType"/>
