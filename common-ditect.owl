@@ -1,0 +1,3806 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.tno.nl/agrifood/ontology/ditect/common#"
+     xml:base="https://www.tno.nl/agrifood/ontology/ditect/common"
+     xmlns:schema="http://schema.org/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:WV="http://www.wurvoc.org/vocabularies/WV/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <owl:imports rdf:resource="https://saref.etsi.org/saref4agri/v1.1.2/"/>
+        <owl:imports rdf:resource="https://bimerr.iot.linkeddata.es/def/weather"/>
+        <owl:imports rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002350 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002350"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002473 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002473"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#actOn -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#actOn"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#contains -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#contains"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#fromNationalstandard -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#fromNationalstandard"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#getMoistureContent -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#getMoistureContent"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#getPesticideResidue -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#getPesticideResidue"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#getPhysico-chemicalDetection -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#getPhysico-chemicalDetection"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#getQuality -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#getQuality"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#getSensoryDetection -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#getSensoryDetection"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#getVeterinaryDrugResidue -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#getVeterinaryDrugResidue"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasAge -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasAge"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasApliedAmount -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasApliedAmount"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicableProduct -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicableProduct"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicationMethod -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicationMethod"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasAquatic -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasAquatic"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasArea -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasArea"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCVTD -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCVTD"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCVTV -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCVTV"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCattle -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCattle"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasContains -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasContains"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasDetection -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasDetection"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasDeterminationMethod -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasDeterminationMethod"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasDosage -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasDosage"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasDose -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasDose"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasElement -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasElement"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasFreezingTemperature -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasFreezingTemperature"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasHarvestAmount -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasHarvestAmount"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasHazard -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasHazard"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasHumidity -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasHumidity"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasIllumination -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasIllumination"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasInMeasure -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasInMeasure"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasIndication -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasIndication"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasInput -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasInput"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasLastPeriod -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasLastPeriod"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasLimit -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasLimit"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasManager -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasManager"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturer -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturer"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketingEnvironment -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketingEnvironment"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasOutput -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasOutput"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasPeriodofImmunity -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasPeriodofImmunity"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasPoultry -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasPoultry"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasPreservationTemperature -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasPreservationTemperature"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasProcessingEnvironment -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasProcessingEnvironment"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasProcessingRoomTemperature -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasProcessingRoomTemperature"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasProduct -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasProduct"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasProductDetectionLimit -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductDetectionLimit"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasQuality -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuality"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasStorageEnvironment -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasStorageEnvironment"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomTemperature -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomTemperature"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasTransportingEnvironment -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasTransportingEnvironment"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasTravelTrajectories -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasTravelTrajectories"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatedArea -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatedArea"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatmentMethod -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatmentMethod"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasType -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasType"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasUsage -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasUsage"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasWithdrawralTime -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasWithdrawralTime"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#has_Bacteriological_index -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#has_Bacteriological_index"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#has_General_chemical_index -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#has_General_chemical_index"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#has_Sensory_property -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#has_Sensory_property"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#has_Toxicological_index -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#has_Toxicological_index"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasmaximum -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasmaximum"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasminimum -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasminimum"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#isAppliedPer -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#isAppliedPer"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#isOperatedOn -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#isOperatedOn"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#isTargetedDisease -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#isTargetedDisease"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#isUsedtoPrevent -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#isUsedtoPrevent"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#livein -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#livein"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#managesFactory -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#managesFactory"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#managesFarm -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#managesFarm"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#perWeight -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#perWeight"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#responsibleAgent -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#responsibleAgent"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#usesDrug -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#usesDrug"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#usesFertilizer -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#usesFertilizer"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#usesForage -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#usesForage"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#usesPesticide -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#usesPesticide"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#usesVaccine -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#usesVaccine"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#workon -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#workon"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#hasCost -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#hasCost"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#hasNutrientConcentration -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#hasNutrientConcentration"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#isPricePer -->
+
+    <owl:ObjectProperty rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#isPricePer"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#GenericName -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#GenericName"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasAddress -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasAddress"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicationMethod -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicationMethod"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasAppliedDatetime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasAppliedDatetime"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasAquaticVariety -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasAquaticVariety"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCattleVariety -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCattleVariety"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCode -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCode"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasColor -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasColor"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCommercialName -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCommercialName"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCommodityId -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCommodityId"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasCropVariety -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasCropVariety"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasDose -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasDose"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasEndDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasEndDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasEndDatetime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasEndDatetime"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasEndPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasEndPosition"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasExpirationDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasExpirationDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasFerrtilizationType -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasFerrtilizationType"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasGrowthStage -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasGrowthStage"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasId -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasInHouseDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasInHouseDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasInShedDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasInShedDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasLotNum -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasLotNum"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturingDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturingDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketLocation -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketLocation"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketingDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketingDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasMeasuredTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasMeasuredTime"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasName -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasOutHouseDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasOutHouseDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasOutShedDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasOutShedDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasPackageMeterial -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasPackageMeterial"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasPoultryVariety -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasPoultryVariety"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasProductDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasProductId -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductId"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasProductionBatchNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductionBatchNumber"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasSmell -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasSmell"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasStartDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasStartDate"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasStartDatetime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasStartDatetime"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasStartPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasStartPosition"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasStorageLocation -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasStorageLocation"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomId -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomId"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasSymptom -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasSymptom"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasTransporters -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasTransporters"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasTransportersId -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasTransportersId"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasValue"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#hasVariety -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#hasVariety"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#isTargetedTowards -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#isTargetedTowards"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#name -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#name"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#hasCommercialName -->
+
+    <owl:DatatypeProperty rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#hasCommercialName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33284"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002982"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33284"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000984"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil is an environmental material which is primarily composed of minerals, varying proportions of sand, silt, and clay, organic material such as humus, gases, liquids, and a broad range of resident micro- and macroorganisms.</obo:IAO_0000115>
+        <obo:IAO_0000116>The various &apos;has part&apos; and &apos;has quality&apos; relations may not hold true for all soils; however, I have yet to find counter examples. Require input from a pedologist or similar. [pbuttigieg]</obo:IAO_0000116>
+        <oboInOwl:hasBroadSynonym>regolith</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTER:535</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPIRE:Soil</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWEETRealm:Soil</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Soil</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC"/>
+        <rdfs:comment>&apos;In engineering terms, soil is referred to as regolith, or loose rock material that lies above the &apos;solid geology&apos;. Soil is commonly referred to as &quot;earth&quot; or &quot;dirt&quot;; technically, the term &quot;dirt&quot; should be restricted to displaced soil.&apos; https://en.wikipedia.org/wiki/Soil
+
+&quot; The upper limit of soil is the boundary between soil and air, shallow water, live plants, or plant materials that have not begun to decompose. Areas are not considered to have soil if the surface is permanently covered by water too deep (typically more than 2.5 meters) for the growth of rooted plants.
+
+The lower boundary that separates soil from the nonsoil underneath is most difficult to define. Soil consists of horizons near the Earth&apos;s surface that, in contrast to the underlying parent material, have been altered by the interactions of climate, relief, and living organisms over time. Commonly, soil grades at its lower boundary to hard rock or to earthy materials virtually devoid of animals, roots, or other marks of biological activity. For purposes of classification, the lower boundary of soil is arbitrarily set at 200 cm.&quot;  Soil taxonomy, 2nd Ed., quoted in http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/edu/?cid=nrcs142p2_054280</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil is an environmental material which is primarily composed of minerals, varying proportions of sand, silt, and clay, organic material such as humus, gases, liquids, and a broad range of resident micro- and macroorganisms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Soil</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000815"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental material primarily composed of dihydrogen oxide in its liquid form.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <oboInOwl:hasBroadSynonym>water</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoLexicon:water</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTER:617</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Water</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid water</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental material primarily composed of dihydrogen oxide in its liquid form.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:ma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002982 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002982"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00003861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003861"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000017"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000256"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000815"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000820"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003861"/>
+        <obo:IAO_0000115>A facility in which non-human animals are slaughtered and processed for human consumption.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <oboInOwl:hasExactSynonym>slaughterhouse</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">slaughterhouse</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>meat processing building</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">abattoir</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000925"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A facility in which non-human animals are slaughtered and processed for human consumption.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Slaughterhouse</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A food product made of meat, the skeletal muscle and associated fat, and other edible tissues such as organs, livers, skin, brains, bone marrow, kidneys, or lungs, of mammals.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F17332</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">meat food product</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A food product made of meat, the skeletal muscle and associated fat, and other edible tissues such as organs, livers, skin, brains, bone marrow, kidneys, or lungs, of mammals.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Meat</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001040">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001131"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411457"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411457"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001131"/>
+        <rdfs:label xml:lang="en">chicken meat food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001092"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001131"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001261">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any plant food product which, typically, is constituted by intact parts from one or more annual plants cultivated as field and garden crops in the open and under glass, and used almost exclusively for food.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="http://www.fao.org/es/faodef/fdef07e.htm#7.01"/>
+        <rdfs:label xml:lang="en">vegetable food product</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Any plant food product which, typically, is constituted by intact parts from one or more annual plants cultivated as field and garden crops in the open and under glass, and used almost exclusively for food.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/es/faodef/fdef07e.htm#7.01</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001275"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301077"/>
+        <obo:IAO_0000115 xml:lang="en">The flesh of fish</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0002-8844-9165"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-02T14:05:26Z</dc:date>
+        <rdfs:label xml:lang="en">fish meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301077"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03301293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001261"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Fodder, a type of animal feed, is any agricultural foodstuff used specifically to feed domesticated livestock, such as cattle, rabbits, sheep, horses, chickens and pigs. &quot;Fodder&quot; refers particularly to food given to the animals (including plants cut and carried to them), rather than that which they forage for themselves (called forage).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Fodder</obo:IAO_0000119>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F1293</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">SIREN DB annotation:
+* has quality &apos;whole, natural shape&apos; (http://purl.obolibrary.org/obo/FOODON_03430150)
+* has quality &apos;not heat-treated&apos; (http://purl.obolibrary.org/obo/FOODON_03440003)
+* derives from &apos;whole plant or most parts used&apos; (http://purl.obolibrary.org/obo/FOODON_03420150)
+* formed as a result of &apos;water removal process&apos; (http://purl.obolibrary.org/obo/FOODON_03460138)
+* formed as a result of &apos;preservation by dehydration or drying&apos; (http://purl.obolibrary.org/obo/FOODON_03470116)
+* has consumer &apos;food animal as consumer&apos; (http://purl.obolibrary.org/obo/FOODON_03510015)
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">fodder (animal feed)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03316061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03316061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001275"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An egg produced by a chicken hen.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <oboInOwl:hasBroadSynonym xml:lang="en">egg</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>SUBSET_SIREN:F16061</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">chicken egg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hen egg</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset>subset_siren</oboInOwl:inSubset>
+        <rdfs:comment xml:lang="en">SIREN DB annotation:
+* derives from &apos;whole egg&apos; (http://purl.obolibrary.org/obo/FOODON_03420274)
+        </rdfs:comment>
+        <rdfs:comment xml:lang="en">This term is ambiguous about whether shell remains on egg or not, i.e. this encompasses both an uncooked egg in shell, or a boiled peeled egg, or a fried egg.</rdfs:comment>
+        <rdfs:label xml:lang="en">hen egg (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03400152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03400152"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411134"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411457"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411579"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000984"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/Humidity -->
+
+    <rdf:Description rdf:about="https://saref.etsi.org/core/Humidity">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://saref.etsi.org/core/Temperature -->
+
+    <rdf:Description rdf:about="https://saref.etsi.org/core/Temperature">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://saref.etsi.org/core/Time -->
+
+    <rdf:Description rdf:about="https://saref.etsi.org/core/Time">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Abattoir -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Abattoir">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000925"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Factory"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Aquatic -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Aquatic">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAge"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#livein"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Pond"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAquaticVariety"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketingDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#AquaticFarm -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#AquaticFarm">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Farm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#contains"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Pond"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Area -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Area"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#AtmosphericPhenomenon -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#AtmosphericPhenomenon">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Beef -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Beef">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Product"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#beef_food_product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#BioHazard -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#BioHazard">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#HazardType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#BreedingOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#BreedingOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Operation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isOperatedOn"/>
+                <owl:someValuesFrom rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasApliedAmount"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isAppliedPer"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAppliedDatetime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#CHEBI -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#CHEBI"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#CVTD -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#CVTD">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#actOn"/>
+                <owl:someValuesFrom rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDosage"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Dosage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasIndication"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Disease"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasUsage"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasWithdrawralTime"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Range"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#CVTV -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#CVTV">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#actOn"/>
+                <owl:someValuesFrom rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDosage"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Dosage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPeriodofImmunity"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Range"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasUsage"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isUsedtoPrevent"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Disease"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Cattle -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Cattle">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAge"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#livein"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Shed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCattleVariety"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasGrowthStage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasInShedDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasOutShedDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#CattleFarm -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#CattleFarm">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Farm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#contains"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Shed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ChemicalHazard -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ChemicalHazard">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#HazardType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Chicken -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Chicken">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ChickenMeat -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ChickenMeat">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Product"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#chicken_meat"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Composition -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Composition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasContains"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Content"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#perWeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Content -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Content">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hasDimension"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Dimension"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasElement"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Corn -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Corn">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Crop"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Crop -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Crop">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Crop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCropVariety"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#CropHarvstOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#CropHarvstOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ParcelOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasHarvestAmount"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatedArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#CropProtectionOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#CropProtectionOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ParcelOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#usesPesticide"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Pesticide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatedArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isTargetedTowards"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Detection -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Detection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDeterminationMethod"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#DeterminationMethod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasHazard"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Hazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#DeterminationMethod -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#DeterminationMethod">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Disease -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasSymptom"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Dosage -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Dosage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDose"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Range"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasInMeasure"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasLastPeriod"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Range"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Drug -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Drug">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#CHEBI"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#TreatmentMaterial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCVTD"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#CVTD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#GenericName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCommercialName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Egg -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Egg">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03316061"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Environment -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Environment"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#EnvironmentHazard -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#EnvironmentHazard">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#HazardType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Factory -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Factory">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAddress"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#FactoryOwner -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#FactoryOwner">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#managesFactory"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Factory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Farm -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Farm">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Farm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasManager"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Farmer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAddress"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#FarmHolding -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#FarmHolding">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/FarmHolding"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#managesFarm"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Farm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Farmer -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Farmer">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Farmer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#managesFarm"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Farm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#FeedMill -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#FeedMill">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Factory"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#FeedingOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#FeedingOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#BreedingOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#usesForage"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Forage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Fertilizer -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Fertilizer"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#FertlizationOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#FertlizationOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ParcelOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#usesFertilizer"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Fertilizer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatedArea"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicationMethod"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasFerrtilizationType"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Fish -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Fish">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#FishMeat -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#FishMeat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003594"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Fodder -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Fodder">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301293"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Product"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Forage -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Forage">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301293"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturer"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasType"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasLotNum"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ForageType -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Ground -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Ground">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Hazard -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Hazard">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#HazardCategory"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#HazardType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#HazardCategory -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#HazardCategory"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#HazardDetermination -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#HazardDetermination">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#fromNationalstandard"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#NationalStandard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDeterminationMethod"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#DeterminationMethod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasHazard"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Hazard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductDetectionLimit"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProductDetectionLimit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#HazardType -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#HazardType"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Illuminance -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Illuminance">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Intramuscular_injection -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Intramuscular_injection">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#IrrigationOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#IrrigationOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ParcelOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#MarketingEnvironment -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#MarketingEnvironment">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Environment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasFreezingTemperature"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasHumidity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasIllumination"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPreservationTemperature"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomTemperature"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMeasuredTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#MarketingOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#MarketingOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Operation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketingEnvironment"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#MarketingEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCommodityId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketLocation"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#MedicationOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#MedicationOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#BreedingOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturer"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTreatmentMethod"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isTargetedDisease"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Disease"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#usesDrug"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Drug"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasLotNum"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#MoistureContent -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#MoistureContent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#NationalStandard -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#NationalStandard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCode"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Nitrate -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Nitrate">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Operation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Operation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isOperatedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#responsibleAgent"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#PackagingOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#PackagingOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProductProcessingOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasExpirationDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturingDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPackageMeterial"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductionBatchNumber"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Parcel -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Parcel">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Parcel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasArea"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ParcelOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ParcelOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Operation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isOperatedOn"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Parcel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasApliedAmount"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isAppliedPer"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Area"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasEndDatetime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStartDatetime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Pesticide -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Pesticide"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#PesticideResidue -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#PesticideResidue">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDetection"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Detection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#PhysicalHazard -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#PhysicalHazard">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#HazardType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Physico-chemicalDetection -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Physico-chemicalDetection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDetection"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Detection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#PlantingFarm -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#PlantingFarm">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Farm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#contains"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Parcel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Pond -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Pond">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Building"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAquatic"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Aquatic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasArea"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Poultry -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Poultry">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Animal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasAge"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#livein"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#PoultryHouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasGrowthStage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasInHouseDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMarketingDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasOutHouseDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPoultryVariety"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#PoultryFarm -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#PoultryFarm">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Farm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#contains"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#PoultryHouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#PoultryHouse -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#PoultryHouse">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Building"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasArea"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPoultry"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Poultry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Precipitation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Precipitation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Pressure -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Pressure">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingEnvironment -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingEnvironment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasFreezingTemperature"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasHumidity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPreservationTemperature"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProcessingRoomTemperature"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMeasuredTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingObject -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingObject">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasVariety"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Product -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Product">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuality"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Quality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ProductDetectionLimit -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ProductDetectionLimit">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicableProduct"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasLimit"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#ProductProcessingOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ProductProcessingOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Operation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasOutput"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProcessingEnvironment"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Quality -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Quality">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#getMoistureContent"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#MoistureContent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#getPesticideResidue"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#PesticideResidue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#getPhysico-chemicalDetection"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Physico-chemicalDetection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#getSensoryDetection"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#SensoryDetection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#getVeterinaryDrugResidue"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#VeterinaryDrugResidue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#QualityDetectingOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#QualityDetectingOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Operation"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProductProcessingOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#getQuality"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Quality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Radiation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Radiation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Range -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Range">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasmaximum"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasminimum"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#SensoryDetection -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#SensoryDetection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasColor"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasSmell"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Shed -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Shed">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4agri/Building"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasArea"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCattle"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Cattle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#SkyCover -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#SkyCover">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Snow -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Snow">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Precipitation"/>
+        <owl:disjointWith rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Storm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#StorageEnvironment -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#StorageEnvironment">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Environment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasFreezingTemperature"/>
+                <owl:allValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasHumidity"/>
+                <owl:allValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPreservationTemperature"/>
+                <owl:allValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomTemperature"/>
+                <owl:allValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMeasuredTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#StoringOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#StoringOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Operation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStorageEnvironment"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#StorageEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStorageLocation"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStoringRoomId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Storm -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Storm">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Precipitation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#TransportingEnvironment -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#TransportingEnvironment">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Environment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasHumidity"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasPreservationTemperature"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasMeasuredTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#TransportingOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#TransportingOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Operation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTransportingEnvironment"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#TransportingEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTravelTrajectories"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#TravelTrajectory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProductId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTransporters"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasTransportersId"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#TravelTrajectory -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#TravelTrajectory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasEndDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasEndPosition"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStartDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasStartPosition"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#TreatmentMaterial -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#TreatmentMaterial"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Usage -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#VaccinationOperation -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#VaccinationOperation">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#BreedingOperation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasApplicationMethod"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasManufacturer"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#isTargetedDisease"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Disease"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#usesVaccine"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Vaccine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDose"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasLotNum"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Vaccine -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Vaccine">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#TreatmentMaterial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasCVTV"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#CVTV"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#GenericName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#VeterinaryDrugResidue -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#VeterinaryDrugResidue">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasDetection"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Detection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#WeatherParameter -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherParameter">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Wind -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Wind">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Worker -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Worker">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/member"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasProduct"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#workon"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ProcessingObject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#arsenic -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#arsenic">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#bacteriological_index -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#bacteriological_index"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#beef_food_product -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#beef_food_product">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001006"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#cadmium -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#cadmium">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#chicken_meat -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#chicken_meat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001040"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#color -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#color">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#sensory_property"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#concentrate -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#concentrate">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#concentrate_feed -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#concentrate_feed">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#concentrate_supplement -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#concentrate_supplement">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#cyanide -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#cyanide">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#flavour -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#flavour">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#sensory_property"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#fluoride -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#fluoride">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#general_chemical_index -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#general_chemical_index"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#green_feed -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#green_feed">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#inorganic_salt_feed -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#inorganic_salt_feed">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#intravenous_injection -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#intravenous_injection">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#lead -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#lead">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#mercury -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#mercury">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#mixed_drinking_water -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#mixed_drinking_water">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Usage"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#pH -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#pH">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#general_chemical_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasValue"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#premix -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#premix">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#roughage -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#roughage">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#sensory_property -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#sensory_property"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#silage -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#silage">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#ForageType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#sulfate -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#sulfate">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#general_chemical_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#total_escherichia_coli -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#total_escherichia_coli">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#bacteriological_index"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#total_hardness_of_water -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#total_hardness_of_water">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#general_chemical_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#total_soluble_solids_of_water -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#total_soluble_solids_of_water">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#general_chemical_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#turbidity -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#turbidity">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#sensory_property"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasQuantity"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#water -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#water">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#has_Bacteriological_index"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#bacteriological_index"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#has_General_chemical_index"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#general_chemical_index"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#has_Sensory_property"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#sensory_property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#has_Toxicological_index"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ditect/common#Chromium(hexavalent) -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Chromium(hexavalent)">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#toxicological_index"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="https://www.tno.nl/agrifood/ontology/ditect/common#Composition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#Fertilizer -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#Fertilizer">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#TreatmentMaterial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#hasNutrientConcentration"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Percentage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#hasCost"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#isPricePer"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#hasCommercialName"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>1: This represents the class of fertilizer that are used in fertilization operations to give nutrients to soil, water or another substrate</rdfs:comment>
+        <rdfs:comment>2: The property hasNutrientConcentration relates to an om:Percentage that has a value and a &quot;phenomenon&quot; that indicates for which nutrient the percentage holds</rdfs:comment>
+        <rdfs:label>fertilizer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#Part -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#Part"/>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#Pesticide -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#Pesticide">
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#TreatmentMaterial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#hasCommercialName"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#Soil -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#Soil">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001998"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://www.tno.nl/agrifood/ontology/ploutos/common#Part"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.tno.nl/agrifood/ontology/ploutos/common#TreatmentMaterial -->
+
+    <owl:Class rdf:about="https://www.tno.nl/agrifood/ontology/ploutos/common#TreatmentMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>This class represents all material or substances that can be used on a parcel, i.e. in the soil or on the crop</rdfs:comment>
+        <rdfs:label>Treatment material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://saref.etsi.org/core/Humidity"/>
+            <rdf:Description rdf:about="https://saref.etsi.org/core/Temperature"/>
+            <rdf:Description rdf:about="https://saref.etsi.org/core/Time"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#AtmosphericPhenomenon"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Ground"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Illuminance"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Precipitation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Pressure"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Radiation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#SkyCover"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#WeatherParameter"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Wind"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#BreedingOperation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#MarketingOperation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ParcelOperation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#ProductProcessingOperation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#QualityDetectingOperation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#StoringOperation"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#TransportingOperation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Intramuscular_injection"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#intravenous_injection"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#mixed_drinking_water"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Nitrate"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#arsenic"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#cadmium"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#cyanide"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#fluoride"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#lead"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#mercury"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#Chromium(hexavalent)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#concentrate"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#concentrate_feed"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#concentrate_supplement"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#green_feed"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#inorganic_salt_feed"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#premix"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#roughage"/>
+            <rdf:Description rdf:about="https://www.tno.nl/agrifood/ontology/ditect/common#silage"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
