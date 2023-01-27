@@ -260,7 +260,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_1391#Cattle -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1391#Cattle">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
@@ -268,7 +268,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_1391#Processor -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1391#Processor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
@@ -276,7 +276,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_2809#Farm -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2809#Farm">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
@@ -284,7 +284,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_2934#Fishery -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2934#Fishery">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
@@ -292,7 +292,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_6145#Poultry -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_6145#Poultry">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
@@ -308,7 +308,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_7044#Retailer -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_7044#Retailer">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
@@ -316,7 +316,7 @@
     <!-- http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8#SlaughterHouse">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
@@ -1074,19 +1074,19 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25341#Location -->
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#location -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25341#Location">
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#location">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLatitude"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68642#Latitude"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLongitude"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68643#Longitude"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A position, site, or point in space where something can be found.</rdfs:comment>
@@ -1094,13 +1094,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25391#Analysis -->
+    <!-- http://purl.obolibrary.org/obo/AGRO_00000369 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25391#Analysis">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AGRO_00000369">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isPerformedAt"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C37984#Laboratory"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001406"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1114,17 +1114,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure -->
+    <!-- https://saref.etsi.org/core/UnitOfMeasure -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure">
+    <owl:Class rdf:about="https://saref.etsi.org/core/UnitOfMeasure">
         <rdfs:comment>The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called \&quot;watt\&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C37984#Laboratory -->
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001406 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C37984#Laboratory">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001406">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
@@ -1170,13 +1170,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#conductsExperimentsIn"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48289#Distributor"/>
+                <owl:someValuesFrom rdf:resource="http://id.loc.gov/vocabulary/relators/dst"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25341#Location"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#location"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A facility equipped and competent to conduct scientific experiments, observations, tests, investigations, and/or to manufacture chemicals or medical products.</rdfs:comment>
@@ -1184,9 +1184,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C47824#Dataset -->
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C47824#Dataset">
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasSample"/>
@@ -1198,22 +1198,22 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C48289#Distributor -->
+    <!-- http://id.loc.gov/vocabulary/relators/dst -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C48289#Distributor">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62289#Domain"/>
+    <owl:Class rdf:about="http://id.loc.gov/vocabulary/relators/dst">
+        <rdfs:subClassOf rdf:resource="http://www.eionet.europa.eu/gemet/concept/11524"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C62289#Domain -->
+    <!-- http://www.eionet.europa.eu/gemet/concept/11524 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62289#Domain">
+    <owl:Class rdf:about="http://www.eionet.europa.eu/gemet/concept/11524">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25341#Location"/>
+                <owl:onClass rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#location"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An area of knowledge considered as a discrete unit for some purpose.</rdfs:comment>
@@ -1221,17 +1221,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C68642#Latitude -->
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68642#Latitude">
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
         <rdfs:comment>The angular distance north or south between an imaginary line around a heavenly body parallel to its equator and the equator itself.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C68643#Longitude -->
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68643#Longitude">
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
         <rdfs:comment>An imaginary great circle on the surface of a heavenly body passing through the poles at right angles to the equator.</rdfs:comment>
     </owl:Class>
     
@@ -1366,7 +1366,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure"/>
+                <owl:allValuesFrom rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1385,7 +1385,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/saref#isMeasuredIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25709#UnitOfMeasure"/>
+                <owl:onClass rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1406,7 +1406,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/isResultOf"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391#Analysis"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000369"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The Result of an Observation, Actuation, or act of Sampling.</rdfs:comment>
@@ -1421,7 +1421,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#hasLocation"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25341#Location"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#location"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1475,7 +1475,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/purl/ditect/DiTECTOntology#isCollectedFrom"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48289#Distributor"/>
+                <owl:someValuesFrom rdf:resource="http://id.loc.gov/vocabulary/relators/dst"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1814,7 +1814,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="λp        it is controlled by isc-nirscan software under windows os (usb connection) or with an app (ios and adroid, using bluetooth connection). nir measurements will be collected directly, taking a portion of the sample and placing into the cuvette in the spectral range of 900–1700 nm, by accumulating 10 internal scans.">NIR spectra will be collected using a portable NIR spectrometer in the range [900nm, 1700nm]. The sensor NIRvascan ASP-NIR-M T (Allied Scientific Pro) sensor, employs a 1 mm InGaAs datector (Hamamatsu model G12180-010A) Dark Current 0.8nA @VR=1V Noise Equivalent Power 1.4*10-14 </rdfs:comment>
+<!--         <rdfs:comment xml:lang="λp        it is controlled by isc-nirscan software under windows os (usb connection) or with an app (ios and adroid, using bluetooth connection). nir measurements will be collected directly, taking a portion of the sample and placing into the cuvette in the spectral range of 900–1700 nm, by accumulating 10 internal scans.\>NIR spectra will be collected using a portable NIR spectrometer in the range [900nm, 1700nm]. The sensor NIRvascan ASP-NIR-M T (Allied Scientific Pro) sensor, employs a 1 mm InGaAs datector (Hamamatsu model G12180-010A) Dark Current 0.8nA @VR=1V Noise Equivalent Power 1.4*10-14 </rdfs:comment> -->
     </owl:Class>
     
 
